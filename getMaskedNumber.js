@@ -7,7 +7,7 @@ export default (number)=>{
     || Math.floor(number / 10) === 3){
     result += 'Fizz'
   }
-  if(multipleOf5){
+  if(multipleOf5 || Math.floor(number / 10) === 5){
     result += 'Buzz'
   }
   return result || number
