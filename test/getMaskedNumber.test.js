@@ -26,4 +26,7 @@ describe('fizz buzz', ()=>{
   it('should be FizzBuzz for 13', ()=>{
     expect(getMaskedNumber(13)).to.be.equal('Fizz')
   })
+  it('should be FizzBuzz for 23', ()=>{
+    expect(getMaskedNumber(23)).to.be.equal('Fizz')
+  })
 })
